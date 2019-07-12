@@ -15,4 +15,9 @@ class JobsController extends Controller
     {
         JobsModel::loadMsg();
     }
+
+    public function actionDoreport()
+    {
+        JobsModel::doReport();
+    }
 }
