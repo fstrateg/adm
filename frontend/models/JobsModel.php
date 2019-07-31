@@ -91,7 +91,8 @@ class JobsModel extends \stdClass
             $qua=$rez[0]['c30'];
             if ($qua) self::out("C30: ".$qua);
 
-
+            $fil->setAttribute('last',$rez[0]['id']);
+            $fil->save();
 
         }
     }

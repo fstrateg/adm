@@ -5,8 +5,8 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 
 $this->title="Просмотр сообщений";
-$data=['1' => 'LaLetty KG',
-    '2' => 'LaLetty KZ',
+$data=['2' => 'LaLetty KG',
+    '1' => 'LaLetty KZ',
     '3'=>'Fix Letty'];
 echo Html::label('Сервис:','srv');
 echo Html::dropDownList('srv', null, $data,['prompt'=>'- Выберите сервис -','onchange'=>'
